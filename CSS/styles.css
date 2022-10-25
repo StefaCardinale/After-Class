@@ -8031,5 +8031,209 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /* Acá Empiezan mis Estilos CSS */
-div {
-  background-color: red; }
+header {
+  background-color: #910e0e;
+  padding-bottom: 40px; }
+
+h1, .h1 {
+  padding-top: 25px;
+  color: #ffffff;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive; }
+
+/* Index */
+.contenedor-presentacion {
+  display: grid;
+  grid-template-areas: "texto-principal imagen-principal";
+  grid-template-columns: 600px 300px;
+  color: #ffffff;
+  text-align: justify;
+  font-family: cursive;
+  font-size: 20px;
+  padding-top: 40px;
+  justify-content: space-around; }
+
+.texto-principal {
+  grid-area: texto-principal;
+  line-height: 40px;
+  padding-top: 40px; }
+
+.imagen-principal {
+  grid-area: imagen-principal; }
+
+/* Carta */
+.contenedor-titulo-comida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: cursive;
+  font-size: 20px; }
+
+.contenedor-fotos-comida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out; }
+
+.contenedor-fotos-comida:hover {
+  transform: scale(1.2); }
+
+.contenedor-descripcion-comida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: cursive;
+  font-size: 20px;
+  padding-bottom: 20px; }
+
+/* Contacto */
+.titulo-formulario {
+  color: #ffffff;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  padding-bottom: 40px; }
+
+.formulario-contacto-email {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 30px; }
+
+.formulario-contacto-texto {
+  padding-left: 200px;
+  padding-right: 200px; }
+
+/* Partnerships */
+.titulo-partnership {
+  color: #ffffff;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px; }
+
+.contenedor-fotos-marcas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 60px; }
+
+/* Sobre Nosotros */
+.descripcion-chef {
+  display: grid;
+  grid-template-areas: "titulo-chef titulo-chef titulo-chef" "texto-chef imagen-chef imagen-chef";
+  grid-template-columns: 400px 150px 150px;
+  color: #ffffff;
+  text-align: justify;
+  font-family: cursive;
+  font-size: 20px;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 30px; }
+
+.titulo-chef {
+  grid-area: titulo-chef;
+  padding-bottom: 30px;
+  padding-left: 40px; }
+
+.texto-chef {
+  grid-area: texto-chef; }
+
+.imagen-chef {
+  grid-area: imagen-chef; }
+
+.descripcion-staff {
+  display: grid;
+  grid-template-areas: "titulo-staff titulo-staff titulo-staff" "imagen-staff imagen-staff texto-staff";
+  grid-template-columns: 150px 150px 515px;
+  color: #ffffff;
+  text-align: justify;
+  font-family: cursive;
+  font-size: 20px;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.titulo-staff {
+  grid-area: titulo-staff;
+  padding-bottom: 30px;
+  padding-left: 40px; }
+
+.imagen-staff {
+  grid-area: imagen-staff; }
+
+.texto-staff {
+  grid-area: texto-staff;
+  padding-right: 60px; }
+
+@media screen and (max-width: 320px) {
+  h1, .h1 {
+    padding-top: 5px;
+    color: #ffffff;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive; } }
+
+@media screen and (max-width: 1024px) {
+  .contenedor-presentacion {
+    display: grid;
+    grid-template-areas: "texto-principal imagen-principal";
+    grid-template-rows: 350px 80px;
+    color: #ffffff;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    justify-content: space-evenly; }
+  .texto-principal {
+    grid-area: texto-principal; }
+  .imagen-principal {
+    grid-area: imagen-principal;
+    padding-top: 28px; }
+  .descripcion-chef {
+    display: grid;
+    grid-template-areas: "titulo-chef titulo-chef titulo-chef" "texto-chef imagen-chef imagen-chef";
+    grid-template-rows: 60px 120px 120px;
+    color: #ffffff;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 16px;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 18px; }
+  .titulo-chef {
+    grid-area: titulo-chef; }
+  .texto-chef {
+    grid-area: texto-chef;
+    padding-top: 40px; }
+  .imagen-chef {
+    grid-area: imagen-chef; }
+  .descripcion-staff {
+    display: grid;
+    grid-template-areas: "titulo-staff titulo-staff titulo-staff" "imagen-staff imagen-staff texto-staff";
+    grid-template-rows: 100px 100px 250px;
+    color: #ffffff;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 16px;
+    justify-content: space-around;
+    padding-top: 35px; }
+  .titulo-staff {
+    grid-area: titulo-staff; }
+  .imagen-staff {
+    grid-area: imagen-staff; }
+  .texto-staff {
+    grid-area: texto-staff;
+    padding-top: 35px;
+    padding-left: 120px; } }
