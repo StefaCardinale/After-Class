@@ -3,27 +3,28 @@
     padding-bottom: $abajo;
 }
 
+@mixin padding-left-right ($izquierda, $derecha) {
+    padding-left: $izquierda;
+    padding-right: $derecha;
+}
+
 header {
     background-color: $color-primario-fondo;
+    h1 {
+        @include padding-top-bottom(25px, 10px);
+        color: $color-primario-letra;
+        text-align: center;
+        font-size: 60px;
+        font-family: $fuente-principal-letra;
+    }
+    div {
+        div {
+            p {
+                color: $color-primario-letra;
+                text-align: justify;
+                @include padding-left-right(40px, 30px)
+            }
+        }
+    }
 }
 
-h1 {
-    @include padding-top-bottom(25px, 10px);
-    color: $color-primario-letra;
-    text-align: center;
-    font-size: 60px;
-    font-family: $fuente-principal-letra;
-}
-
-.contenedor-presentacion {
-    color: $color-primario-letra;
-    text-align: justify;
-    font-family: $fuente-principal-letra;
-    font-size: 20px;
-    padding-top: 40px;
-    justify-content: space-around;
-}
-
-.texto-principal {
-    line-height: 40px;
-} 

@@ -1,0 +1,12 @@
+header {
+    div {
+        div {
+            img:hover {
+                transform: scale(1.5);
+                transition-property: all;
+                transition-duration: 0.4s;
+                transition-timing-function: ease-in-out;
+            }
+        }
+    }
+}
