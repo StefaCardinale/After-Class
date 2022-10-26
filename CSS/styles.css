@@ -8046,7 +8046,7 @@ header {
     padding-left: 40px;
     padding-right: 30px; }
 
-header div div img:hover {
+.header-carta div div img:hover {
   transform: scale(1.5);
   transition-property: all;
   transition-duration: 0.4s;
