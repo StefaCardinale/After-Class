@@ -1,24 +1,32 @@
+@mixin padding-top-bottom ($arriba, $abajo) {
+    padding-top: $arriba;
+    padding-bottom: $abajo;
+}
+
+@mixin padding-left-right ($izquierda, $derecha) {
+    padding-left: $izquierda;
+    padding-right: $derecha;
+}
+
 header {
     background-color: $color-primario-fondo;
     padding-bottom: 40px;
 }
 
 h1 {
-    padding-top: 25px;
+    @include padding-top-bottom(25px, 10px);
     color: $color-primario-letra;
-    padding-bottom: 10px;
     text-align: center;
     font-size: 60px;
     font-family: $fuente-principal-letra;
 }
 
 .titulo-partnership {
+    @include padding-left-right(100px, 100px);
     color: $color-primario-letra;
     text-align: center;
     font-family: $fuente-principal-letra;
     font-size: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-bottom: 10px;
 }
 
