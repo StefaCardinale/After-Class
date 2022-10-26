@@ -8045,9 +8045,6 @@ h1, .h1 {
 
 /* Index */
 .contenedor-presentacion {
-  display: grid;
-  grid-template-areas: "texto-principal imagen-principal";
-  grid-template-columns: 600px 300px;
   color: #ffffff;
   text-align: justify;
   font-family: cursive;
@@ -8056,41 +8053,7 @@ h1, .h1 {
   justify-content: space-around; }
 
 .texto-principal {
-  grid-area: texto-principal;
-  line-height: 40px;
-  padding-top: 40px; }
-
-.imagen-principal {
-  grid-area: imagen-principal; }
-
-/* Carta */
-.contenedor-titulo-comida {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  font-family: cursive;
-  font-size: 20px; }
-
-.contenedor-fotos-comida {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  transition-property: all;
-  transition-duration: 0.8s;
-  transition-timing-function: ease-in-out; }
-
-.contenedor-fotos-comida:hover {
-  transform: scale(1.2); }
-
-.contenedor-descripcion-comida {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  font-family: cursive;
-  font-size: 20px;
-  padding-bottom: 20px; }
+  line-height: 40px; }
 
 /* Contacto */
 .titulo-formulario {
@@ -8101,16 +8064,7 @@ h1, .h1 {
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
-  padding-bottom: 40px; }
-
-.formulario-contacto-email {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-bottom: 30px; }
-
-.formulario-contacto-texto {
-  padding-left: 200px;
-  padding-right: 200px; }
+  padding-top: 25px; }
 
 /* Partnerships */
 .titulo-partnership {
@@ -8129,52 +8083,10 @@ h1, .h1 {
   padding-bottom: 60px; }
 
 /* Sobre Nosotros */
-.descripcion-chef {
-  display: grid;
-  grid-template-areas: "titulo-chef titulo-chef titulo-chef" "texto-chef imagen-chef imagen-chef";
-  grid-template-columns: 400px 150px 150px;
-  color: #ffffff;
-  text-align: justify;
+header div {
+  padding-top: 20px;
   font-family: cursive;
-  font-size: 20px;
-  justify-content: space-around;
-  padding-top: 40px;
-  padding-bottom: 30px; }
-
-.titulo-chef {
-  grid-area: titulo-chef;
-  padding-bottom: 30px;
-  padding-left: 40px; }
-
-.texto-chef {
-  grid-area: texto-chef; }
-
-.imagen-chef {
-  grid-area: imagen-chef; }
-
-.descripcion-staff {
-  display: grid;
-  grid-template-areas: "titulo-staff titulo-staff titulo-staff" "imagen-staff imagen-staff texto-staff";
-  grid-template-columns: 150px 150px 515px;
-  color: #ffffff;
-  text-align: justify;
-  font-family: cursive;
-  font-size: 20px;
-  justify-content: space-around;
-  padding-top: 30px;
-  padding-bottom: 20px; }
-
-.titulo-staff {
-  grid-area: titulo-staff;
-  padding-bottom: 30px;
-  padding-left: 40px; }
-
-.imagen-staff {
-  grid-area: imagen-staff; }
-
-.texto-staff {
-  grid-area: texto-staff;
-  padding-right: 60px; }
+  font-size: 20px; }
 
 @media screen and (max-width: 320px) {
   h1, .h1 {
@@ -8185,55 +8097,139 @@ h1, .h1 {
     font-size: 22px;
     font-family: cursive; } }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 320px) {
+  h1, .h1 {
+    padding-top: 5px;
+    color: #ffffff;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive; }
+  .contenedor-presentacion {
+    font-size: 18px;
+    text-align: center; }
+  .texto-principal {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .titulo-formulario {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 15px; }
+  .mb-3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 10px; } }
+
+@media screen and (min-width: 425px) {
+  h1, .h1 {
+    padding-top: 5px;
+    color: #ffffff;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive; }
+  .contenedor-presentacion {
+    font-size: 18px;
+    text-align: center; }
+  .texto-principal {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .titulo-formulario {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 18px; }
+  .mb-3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 12px; } }
+
+@media screen and (min-width: 768px) {
+  .contenedor-presentacion {
+    font-size: 18px;
+    text-align: center; }
+  .texto-principal {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .titulo-formulario {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 20px; }
+  .mb-3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 15px; } }
+
+@media screen and (min-width: 1024px) {
   .contenedor-presentacion {
     display: grid;
     grid-template-areas: "texto-principal imagen-principal";
-    grid-template-rows: 350px 80px;
+    grid-template-columns: 600px 300px;
     color: #ffffff;
     text-align: justify;
     font-family: cursive;
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 40px;
     justify-content: space-evenly; }
   .texto-principal {
     grid-area: texto-principal; }
   .imagen-principal {
     grid-area: imagen-principal;
-    padding-top: 28px; }
-  .descripcion-chef {
+    padding-top: 55px; }
+  .titulo-formulario {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 25px; }
+  .mb-3 {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 18px; } }
+
+@media screen and (min-width: 1440px) {
+  .contenedor-presentacion {
     display: grid;
-    grid-template-areas: "titulo-chef titulo-chef titulo-chef" "texto-chef imagen-chef imagen-chef";
-    grid-template-rows: 60px 120px 120px;
+    grid-template-areas: "texto-principal imagen-principal";
+    grid-template-columns: 600px 300px;
     color: #ffffff;
     text-align: justify;
     font-family: cursive;
-    font-size: 16px;
-    justify-content: space-evenly;
-    padding-top: 25px;
-    padding-bottom: 18px; }
-  .titulo-chef {
-    grid-area: titulo-chef; }
-  .texto-chef {
-    grid-area: texto-chef;
+    font-size: 25px;
+    justify-content: space-evenly; }
+  .texto-principal {
+    grid-area: texto-principal;
     padding-top: 40px; }
-  .imagen-chef {
-    grid-area: imagen-chef; }
-  .descripcion-staff {
+  .imagen-principal {
+    grid-area: imagen-principal;
+    padding-top: 60px; }
+  .titulo-formulario {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-size: 30px; }
+  .mb-3 {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 22px; } }
+
+@media screen and (min-width: 2560px) {
+  .contenedor-presentacion {
     display: grid;
-    grid-template-areas: "titulo-staff titulo-staff titulo-staff" "imagen-staff imagen-staff texto-staff";
-    grid-template-rows: 100px 100px 250px;
+    grid-template-areas: "texto-principal imagen-principal";
+    grid-template-columns: 1500px 300px;
     color: #ffffff;
     text-align: justify;
     font-family: cursive;
-    font-size: 16px;
-    justify-content: space-around;
-    padding-top: 35px; }
-  .titulo-staff {
-    grid-area: titulo-staff; }
-  .imagen-staff {
-    grid-area: imagen-staff; }
-  .texto-staff {
-    grid-area: texto-staff;
-    padding-top: 35px;
-    padding-left: 120px; } }
+    font-size: 35px;
+    justify-content: space-evenly; }
+  .texto-principal {
+    grid-area: texto-principal;
+    padding-top: 100px; }
+  .imagen-principal {
+    grid-area: imagen-principal;
+    padding-top: 60px; }
+  .titulo-formulario {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 40px; }
+  .mb-3 {
+    padding-left: 800px;
+    padding-right: 800px;
+    font-size: 30px; } }

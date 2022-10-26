@@ -1,0 +1,24 @@
+header {
+    background-color: $color-primario-fondo;
+    padding-bottom: 40px;
+}
+
+h1 {
+    padding-top: 25px;
+    color: $color-primario-letra;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: $fuente-principal-letra;
+}
+
+.titulo-formulario {
+    color: $color-primario-letra;
+    text-align: center;
+    font-family: $fuente-principal-letra;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    padding-top: 25px;
+}

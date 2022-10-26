@@ -1,0 +1,215 @@
+
+
+
+@media screen and (max-width: 320px) {
+    h1 {
+        padding-top: 5px;
+        color: $color-primario-letra;
+        padding-bottom: 4px;
+        text-align: center;
+        font-size: 22px;
+        font-family: $fuente-principal-letra;
+    }
+
+}
+
+@media screen and (min-width: 320px) {
+    h1 {
+        padding-top: 5px;
+        color: $color-primario-letra;
+        padding-bottom: 4px;
+        text-align: center;
+        font-size: 22px;
+        font-family: $fuente-principal-letra;
+    }
+
+    .contenedor-presentacion {
+        font-size: 18px;
+        text-align: center
+    }
+    
+    .texto-principal {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .titulo-formulario {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .mb-3 {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    h1 {
+        padding-top: 5px;
+        color: $color-primario-letra;
+        padding-bottom: 4px;
+        text-align: center;
+        font-size: 22px;
+        font-family: $fuente-principal-letra;
+    }
+
+    .contenedor-presentacion {
+        font-size: 18px;
+        text-align: center
+    }
+    
+    .texto-principal {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .titulo-formulario {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .mb-3 {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contenedor-presentacion {
+        font-size: 18px;
+        text-align: center
+    }
+    
+    .texto-principal {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .titulo-formulario {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+
+    .mb-3 {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contenedor-presentacion {
+        display: grid;
+        grid-template-areas: 
+        "texto-principal imagen-principal"
+        ;
+        grid-template-columns: 600px 300px;
+        color: $color-primario-letra;
+        text-align: justify;
+        font-family: $fuente-principal-letra;
+        font-size: 20px;
+        padding-top: 40px;
+        justify-content: space-evenly;
+    }
+
+    .texto-principal {
+        grid-area: texto-principal;
+    }
+    
+    .imagen-principal {
+        grid-area: imagen-principal;
+        padding-top: 55px;
+    }
+
+    .titulo-formulario {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+
+    .mb-3 {
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contenedor-presentacion {
+        display: grid;
+        grid-template-areas: 
+        "texto-principal imagen-principal"
+        ;
+        grid-template-columns: 600px 300px;
+        color: $color-primario-letra;
+        text-align: justify;
+        font-family: $fuente-principal-letra;
+        font-size: 25px;
+        justify-content: space-evenly;
+    }
+
+    .texto-principal {
+        grid-area: texto-principal;
+        padding-top: 40px;
+    }
+    
+    .imagen-principal {
+        grid-area: imagen-principal;
+        padding-top: 60px;
+    }
+
+    .titulo-formulario {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        font-size: 30px;
+    }
+
+    .mb-3 {
+        padding-left: 200px;
+        padding-right: 200px;
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (min-width: 2560px) {
+    .contenedor-presentacion {
+        display: grid;
+        grid-template-areas: 
+        "texto-principal imagen-principal"
+        ;
+        grid-template-columns: 1500px 300px;
+        color: $color-primario-letra;
+        text-align: justify;
+        font-family: $fuente-principal-letra;
+        font-size: 35px;
+        justify-content: space-evenly;
+    }
+
+    .texto-principal {
+        grid-area: texto-principal;
+        padding-top: 100px;
+    }
+    
+    .imagen-principal {
+        grid-area: imagen-principal;
+        padding-top: 60px;
+    }
+    .titulo-formulario {
+        padding-top: 120px;
+        padding-bottom: 80px;
+        font-size: 40px;
+    }
+
+    .mb-3 {
+        padding-left: 800px;
+        padding-right: 800px;
+        font-size: 30px;
+    }
+}

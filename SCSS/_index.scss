@@ -1,0 +1,26 @@
+header {
+    background-color: $color-primario-fondo;
+    padding-bottom: 40px;
+}
+
+h1 {
+    padding-top: 25px;
+    color: $color-primario-letra;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: $fuente-principal-letra;
+}
+
+.contenedor-presentacion {
+    color: $color-primario-letra;
+    text-align: justify;
+    font-family: $fuente-principal-letra;
+    font-size: 20px;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+
+.texto-principal {
+    line-height: 40px;
+} 
