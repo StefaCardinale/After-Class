@@ -9,7 +9,6 @@
 }
 
 header {
-    background-color: $color-primario-fondo;
     h1 {
         @include padding-top-bottom(25px, 10px);
         color: black;

@@ -8031,20 +8031,19 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /* Acá Empiezan mis Estilos CSS */
-header {
-  background-color: #910e0e; }
-  header h1, header .h1 {
-    padding-top: 25px;
-    padding-bottom: 10px;
-    color: black;
-    text-align: center;
-    font-size: 60px;
-    font-family: cursive; }
-  header div div p {
-    color: black;
-    text-align: end;
-    padding-left: 40px;
-    padding-right: 30px; }
+header h1, header .h1 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive; }
+
+header div div p {
+  color: black;
+  text-align: end;
+  padding-left: 40px;
+  padding-right: 30px; }
 
 .header-carta div div img:hover {
   transform: scale(1.5);
