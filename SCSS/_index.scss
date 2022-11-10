@@ -12,7 +12,7 @@ header {
     background-color: $color-primario-fondo;
     h1 {
         @include padding-top-bottom(25px, 10px);
-        color: $color-primario-letra;
+        color: black;
         text-align: center;
         font-size: 60px;
         font-family: $fuente-principal-letra;
@@ -20,8 +20,8 @@ header {
     div {
         div {
             p {
-                color: $color-primario-letra;
-                text-align: justify;
+                color: black;
+                text-align: end;
                 @include padding-left-right(40px, 30px)
             }
         }

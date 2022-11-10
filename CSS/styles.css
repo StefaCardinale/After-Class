@@ -8036,13 +8036,13 @@ header {
   header h1, header .h1 {
     padding-top: 25px;
     padding-bottom: 10px;
-    color: #ffffff;
+    color: black;
     text-align: center;
     font-size: 60px;
     font-family: cursive; }
   header div div p {
-    color: #ffffff;
-    text-align: justify;
+    color: black;
+    text-align: end;
     padding-left: 40px;
     padding-right: 30px; }
 
