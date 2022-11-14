@@ -8031,19 +8031,20 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /* Acá Empiezan mis Estilos CSS */
-header h1, header .h1 {
-  padding-top: 25px;
-  padding-bottom: 10px;
-  color: black;
-  text-align: center;
-  font-size: 60px;
-  font-family: cursive; }
-
-header div div p {
-  color: black;
-  text-align: end;
-  padding-left: 40px;
-  padding-right: 30px; }
+header {
+  background-color: #910e0e; }
+  header h1, header .h1 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive; }
+  header div div p {
+    color: #ffffff;
+    text-align: end;
+    padding-left: 40px;
+    padding-right: 30px; }
 
 .header-carta div div img:hover {
   transform: scale(1.5);
@@ -8051,7 +8052,7 @@ header div div p {
   transition-duration: 0.4s;
   transition-timing-function: ease-in-out; }
 
-header {
+.header-contactanos {
   background-color: #910e0e;
   padding-bottom: 40px; }
 
@@ -8101,7 +8102,6 @@ h1, .h1 {
   padding-bottom: 60px; }
 
 header {
-  background-color: #910e0e;
   padding-bottom: 40px; }
 
 header div {

@@ -9,9 +9,10 @@
 }
 
 header {
+    background-color: $color-primario-fondo;
     h1 {
         @include padding-top-bottom(25px, 10px);
-        color: black;
+        color: $color-primario-letra;
         text-align: center;
         font-size: 60px;
         font-family: $fuente-principal-letra;
@@ -19,7 +20,7 @@ header {
     div {
         div {
             p {
-                color: black;
+                color: $color-primario-letra;
                 text-align: end;
                 @include padding-left-right(40px, 30px)
             }
