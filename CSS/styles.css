@@ -8031,6 +8031,9 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /* Acá Empiezan mis Estilos CSS */
+body {
+  background-color: #910e0e; }
+
 header {
   background-color: #910e0e; }
   header h1, header .h1 {
@@ -8046,11 +8049,17 @@ header {
     padding-left: 40px;
     padding-right: 30px; }
 
+body {
+  background-color: #910e0e; }
+
 .header-carta div div img:hover {
   transform: scale(1.5);
   transition-property: all;
   transition-duration: 0.4s;
   transition-timing-function: ease-in-out; }
+
+body {
+  background-color: #910e0e; }
 
 .header-contactanos {
   background-color: #910e0e;
@@ -8073,6 +8082,9 @@ h1, .h1 {
   font-size: 20px;
   position: relative;
   padding-top: 25px; }
+
+body {
+  background-color: #910e0e; }
 
 header {
   background-color: #910e0e;
@@ -8101,7 +8113,10 @@ h1, .h1 {
   justify-content: space-evenly;
   padding-bottom: 60px; }
 
-header {
+body {
+  background-color: #910e0e; }
+
+.header-sobre-nosotros {
   padding-bottom: 40px; }
 
 header div {
