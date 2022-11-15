@@ -8107,12 +8107,6 @@ h1, .h1 {
   font-size: 20px;
   padding-bottom: 10px; }
 
-.contenedor-fotos-marcas {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-bottom: 60px; }
-
 body {
   background-color: #910e0e; }
 
