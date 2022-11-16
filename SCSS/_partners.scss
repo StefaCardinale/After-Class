@@ -8,28 +8,25 @@
     padding-right: $derecha;
 }
 
-body {
-    background-color: $color-primario-fondo;
+header {
+    padding-bottom: 40px;
 }
 
-header {
-    background-color: $color-primario-fondo;
-    padding-bottom: 40px;
+.estilo-letra {
+    font-family: $fuente-principal-letra;
+    color: $color-primario-letra;
+    text-align: center;
 }
 
 h1 {
     @include padding-top-bottom(25px, 10px);
-    color: $color-primario-letra;
-    text-align: center;
     font-size: 60px;
-    font-family: $fuente-principal-letra;
+    @extend .estilo-letra
 }
 
 .titulo-partnership {
     @include padding-left-right(100px, 100px);
-    color: $color-primario-letra;
-    text-align: center;
-    font-family: $fuente-principal-letra;
     font-size: 20px;
     padding-bottom: 10px;
+    @extend .estilo-letra
 }

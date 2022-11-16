@@ -8049,20 +8049,13 @@ header {
     padding-left: 40px;
     padding-right: 30px; }
 
-body {
-  background-color: #910e0e; }
-
 .header-carta div div img:hover {
-  transform: scale(0.5);
+  transform: scale(0.6);
   transition-property: all;
   transition-duration: 0.4s;
   transition-timing-function: ease-in-out; }
 
-body {
-  background-color: #910e0e; }
-
 .header-contactanos {
-  background-color: #910e0e;
   padding-bottom: 40px; }
 
 h1, .h1 {
@@ -8083,32 +8076,24 @@ h1, .h1 {
   position: relative;
   padding-top: 25px; }
 
-body {
-  background-color: #910e0e; }
-
 header {
-  background-color: #910e0e;
   padding-bottom: 40px; }
+
+.estilo-letra, h1, .h1, .titulo-partnership {
+  font-family: cursive;
+  color: #ffffff;
+  text-align: center; }
 
 h1, .h1 {
   padding-top: 25px;
   padding-bottom: 10px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 60px;
-  font-family: cursive; }
+  font-size: 60px; }
 
 .titulo-partnership {
   padding-left: 100px;
   padding-right: 100px;
-  color: #ffffff;
-  text-align: center;
-  font-family: cursive;
   font-size: 20px;
   padding-bottom: 10px; }
-
-body {
-  background-color: #910e0e; }
 
 .header-sobre-nosotros {
   padding-bottom: 40px; }
